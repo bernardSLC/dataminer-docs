@@ -230,6 +230,13 @@ Service:serv|PROPERTY:Class|=A-F|Element:number|ALARMLEVEL|>=MINORG|
 VIEW:2|ALARMLEVEL|>=MINOR-H|Service:serv|ALARMLEVEL|>=MINOR
 ```
 
+```txt
+(<A>and<B>)or(<C>and<D>and<E>)or(<F>and<G>and<H>)-A|57/2|1|<0-
+B|57/3|510,1|<0-C|number|PROPERTY:Class|=A-D|VIEW:2|PROPERTY:Class|=AE|
+Service:serv|PROPERTY:Class|=A-F|Element:number|ALARMLEVEL|>=MINORG|
+VIEW:2|ALARMLEVEL|>=MINOR-H|Service:serv|ALARMLEVEL|>=MINOR
+```
+
 Multiple conditions combined with the “condition” part of the shape data:
 
 ```txt
